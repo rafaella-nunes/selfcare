@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "./header.css";
+
+:root {
+    --verde: #5CA720;
+    --preto: #161616;
+    --cinza: #a5a1a180;
+    --cinzadofooter: #F9F9F9;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+ol, ul, li{
+    list-style: none;
+}
