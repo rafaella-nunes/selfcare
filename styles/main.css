@@ -29,3 +29,36 @@ header{
     display: inline-block;
     padding: 0px 1.25em;
 }
+
+.banner_sale{
+    width: 100%;
+}
+
+.promocao_texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.37em 4.31em;
+    height: 5.8em;
+    color: #161616;
+    font-style: normal;
+}
+
+.promo{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.nprodutos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.37em;
+    color: #161616;
+}
+.produtos{
+    border: 0.0125em solid #E5E5E5;
+}
