@@ -32,6 +32,7 @@ header{
 
 .banner_sale{
     width: 100%;
+
 }
 
 .promocao_texto{
@@ -42,6 +43,7 @@ header{
     height: 5.8em;
     color: #161616;
     font-style: normal;
+    border-bottom: 0.0125em solid #E5E5E5;
 }
 
 .promo{
@@ -60,5 +62,52 @@ header{
     color: #161616;
 }
 .produtos{
-    border: 0.0125em solid #E5E5E5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #161616;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 4.06em 12.18em;
 }
+
+.produtos a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #161616;
+}
+
+.produtos img{
+    left: 70px;
+    top: 612px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .6s ease;
+}
+
+.produtos img:hover{
+    transform: scale(1.2);
+}
+
+.produtos p{
+    padding-top: 23px;
+}
+
+.produtos div{
+    padding: 0em, 12.18em, 4.06em, 0em;
+}
+
+main{
+    padding: 3.56em 4.37em 7.25em;
+}
+
