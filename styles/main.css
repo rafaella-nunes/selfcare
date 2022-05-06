@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import "./header.css";
 
 *{
     box-sizing: border-box;
@@ -111,3 +110,54 @@ main{
     padding: 3.56em 4.37em 7.25em;
 }
 
+footer{
+    background-color: #F9F9F9;
+    border-top: 0.0125em solid #E5E5E5;
+    border-bottom: 0.0125em solid #E5E5E5;
+}
+
+footer a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+footer li{
+    list-style: none;
+    padding-top: 11px;
+}
+
+.ftop{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.flinks{
+    padding-left: 4.4375em;
+    padding-top: 29px;
+}
+
+.flinks a{
+    text-decoration: none;
+    color: #161616;
+}
+
+.newsletter{
+    padding: 55px 70px 65px 0px;
+}
+
+button{
+    width: 152px;
+    height: 54px;
+    background: #5CA720;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.fbottom{
+    border-top: 0.0125em solid #E5E5E5;
+    border-bottom: 0.0125em solid #E5E5E5;
+}
