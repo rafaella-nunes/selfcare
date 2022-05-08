@@ -66,13 +66,12 @@ header{
     font-size: 22px;
     line-height: 26px;
     color: #161616;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    gap: 4.06em 12.18em;
+    gap: 4em 4em;
 }
 
 .produtos a{
@@ -112,6 +111,7 @@ main{
 
 footer{
     background-color: #F9F9F9;
+    width: 100%;
     border-top: 0.0125em solid #E5E5E5;
     border-bottom: 0.0125em solid #E5E5E5;
 }
@@ -129,6 +129,8 @@ footer li{
 .ftop{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
     padding: 40px 0;
     font-weight: 500;
     font-size: 20px;
@@ -147,17 +149,94 @@ footer li{
 }
 
 .newsletter{
-    padding: 55px 70px 65px 0px;
+    align-items: center;
+    justify-content: inherit;
+    padding-right: 70px;
 }
 
-button{
+.newsletter p{
+    width: 98px;
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161616;
+    padding-bottom: 38px;
+}
+
+.newsletteremail{
+    width: 397px;
+    height: 54px;
+    padding: 13px;
+    position: inherit;
+    background: #FFFFFF;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A8A4A4;
+}
+
+.newsletter button{
     width: 152px;
     height: 54px;
-    background: #5CA720;
+    color: #fff;
+    background-color: #5CA720;
     border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-size: 1.25em;
+    line-height: 24px;
+    font-family: 'Lato';
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .fbottom{
     border-top: 0.0125em solid #E5E5E5;
-    border-bottom: 0.0125em solid #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    height: 132px;
+}
+
+.redes{
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 4.4375em;
+    align-items: center;
+    padding-top: 29px;
+}
+.redes img{
+    width: 33.5px;
+    height: 33.5px;
+    object-fit: cover;
+}
+
+.pagamento{
+    padding-top: 29px;
+    padding-right: 4.4375em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.25em;
+}
+
+.pagamento li{
+    display: inline-block;
+    padding: 0px 1.25em;
+    justify-content: space-between;
+    align-items: center;
 }
